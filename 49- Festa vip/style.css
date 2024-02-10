@@ -1,0 +1,26 @@
+#result{
+    background-color: rgba(127, 212, 255, 0.289);
+    border-radius: 12px;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+
+    
+}
+#formulario{
+    background-color: gray;
+    color: white;
+    width: 80%;
+    text-align: center;
+    min-height: 300px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.586);
+}
+.texto{
+    padding-bottom: 30px;
+}
+h1{
+    color: rgb(198, 204, 21);
+}

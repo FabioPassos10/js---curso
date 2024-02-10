@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+ 
+}
+
+h1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#cardPrinc{
+background-color: white;
+border: 1pt solid rgba(0, 0, 0, 0.729);
+height: 360px;
+width: 50%;
+border-radius: 18px;
+text-align: center;
+margin: 0 auto;
+margin-top: 20px;
+box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.26);
+}
+
+#Status{
+    text-align: center;
+    border: 4pt double rgba(8, 132, 214, 0.305);
+    width: 60%;
+    max-height: 100px;
+    margin: 0 auto;
+    padding-top: 12px;
+    
+}
+
+form{
+margin-bottom: 20px;
+height: 120px;
+}
+
+h3{
+    color: red;
+    font-weight: bold;
+}
+
+#paragBoaVel{
+    color: rgb(19, 164, 19);
+}
+
+#parag{
+    color: red;
+}

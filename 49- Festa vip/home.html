@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa vip</title>
+    <script src="festaVip.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="formulario">
+
+        <h1>Festa vip</h1>
+        <div class="texto">
+            <label for="nome">Bem vindo(a) a Festa senhor(a):</label>
+            <input type="text" id="nome">
+        </div>
+        <div class="texto">
+            <label for="ConvNome">Quem te convidou para Festa?</label>
+            <input type="text" id="ConvNome">
+        </div>
+
+
+        <button type="submit" onclick="analise()">Verificar</button>
+    </div>
+
+
+
+    <div id="result">
+        <h2>Situação:</h2>
+        <br>
+        <p id="parag">Em análise...</p>
+    </div>
+
+
+</body>
+
+</html>

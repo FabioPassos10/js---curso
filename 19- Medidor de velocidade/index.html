@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidor de velocidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="cardPrinc">
+        <h1>Fiscalização de velocidade 🚗</h1>
+        <form onsubmit="return verificaFormulario()">
+            <label for="velocidade">Digite a velocidade do automovel:</label>
+            <input type="number" id="velocidade" name="velocidade" required>
+            <button type="submit">Fiscalizar</button>
+        </form>
+        <div id="Status">
+           <p id="parag"></p> 
+           <p id="paragBoaVel"></p>
+        </div>
+    </div>
+    
+
+    
+
+    <script src="velocidade.js"></script>
+    
+</body>
+</html>
